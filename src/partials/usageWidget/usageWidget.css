@@ -1,0 +1,34 @@
+#root {
+  max-width: 50%;
+  margin: 0 auto;
+  /* padding: 2rem; */
+  text-align: center;
+}
+
+.card {
+  padding: 10px;
+}
+
+#stats {
+    border-spacing: 0;    
+    border: 1px solid white;
+}
+
+#stats tr td {
+    box-sizing: content-box;
+    border-left: 1px solid white;
+    border-top: 1px solid white;
+}
+
+#stats th {
+    box-sizing: content-box;
+    border-top: 1px solid white;
+}
+
+#aiModel {
+    display: inline;
+}
+#aiModel tr td {
+    border: none !important; 
+    border-top: none !important;
+}
