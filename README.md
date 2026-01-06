@@ -10,6 +10,13 @@ Features include
   - a combination of the selects are accepted and handled by calling the corresponding APIs
 - Errors are shown on the screen rather than system craes
 
+## How I designed and approached this project
+- AI Usage Data shown in the table is stored as State such that changes will be shown after each update
+- With the Team ID, Start Date, and End Date dropdowns, I have already known that additional APIs are required to handle more complicated situations
+- Each change in the dropboxes could trigger an API call
+- Rather than crashing the application in the case of errors, an error message is displayed to notify the user
+
+## How to run the application
 To run the application, simply download and navigate to the root folder on a Command Prompt and run:
 > npm run dev
 
